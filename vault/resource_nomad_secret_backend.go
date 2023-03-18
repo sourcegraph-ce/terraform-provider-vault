@@ -5,7 +5,7 @@ package vault
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/hashicorp/terraform-provider-vault/internal/consts"
