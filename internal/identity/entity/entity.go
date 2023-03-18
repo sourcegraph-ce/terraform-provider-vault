@@ -6,7 +6,7 @@ package entity
 import (
 	"errors"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/vault/api"
 	"github.com/mitchellh/mapstructure"
