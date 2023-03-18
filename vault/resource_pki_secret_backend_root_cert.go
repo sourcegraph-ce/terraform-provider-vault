@@ -9,7 +9,7 @@ import (
 	"encoding/pem"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"strings"
 

@@ -6,7 +6,7 @@ package vault
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 
 	"github.com/hashicorp/go-multierror"

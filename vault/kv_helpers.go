@@ -6,7 +6,7 @@ package vault
 import (
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"path"
 	"strings"
 
